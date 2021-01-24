@@ -1,0 +1,3 @@
+#!/bin/sh
+python3 .git/hooks/check_added_large_files.py
+python3 .git/hooks/white_list_file_type.py
